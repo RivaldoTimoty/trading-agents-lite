@@ -1,0 +1,15 @@
+# Run artefacts and personal data
+ta_runs/
+trading_agents_log.jsonl
+*.skill
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1128" width="960" height="1128" font-family="'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" role="img" aria-label="Trading Agents Lite: alur satu analisis">
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8C97A6"/></marker>
+<marker id="arrmem" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E7490"/></marker>
+</defs>
+<rect x="0" y="0" width="960" height="1128" rx="18" fill="#F3F5F8"/>
+<text x="40" y="56" font-size="26" fill="#1B2430" font-weight="700" text-anchor="start" >Trading Agents Lite: alur satu analisis</text>
+<text x="40" y="84" font-size="14" fill="#5B6573" font-weight="normal" text-anchor="start" >Satu ticker, satu tanggal analisis. Setiap peran menulis filenya sendiri di folder run.</text>
+<circle cx="62" cy="144" r="15" fill="#3F5670"/>
+<text x="62" y="149" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle" >1</text>
+<text x="88" y="149" font-size="15" fill="#3F5670" font-weight="700" text-anchor="start" >Data</text>
+<rect x="200.0" y="118" width="222.66666666666666" height="62" rx="10" fill="#FFFFFF" stroke="#3F5670" stroke-width="1.6"/>
+<rect x="200.0" y="128" width="4" height="42" rx="2" fill="#3F5670"/>
+<text x="311.3333333333333" y="146.0" font-size="14" fill="#3F5670" font-weight="700" text-anchor="middle" >fetch_data.py</text>
+<text x="311.3333333333333" y="165.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >yfinance, jika akses tersedia</text>
+<line x1="311.3333333333333" y1="180" x2="311.3333333333333" y2="212" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="438.66666666666663" y="118" width="222.66666666666666" height="62" rx="10" fill="#FFFFFF" stroke="#3F5670" stroke-width="1.6"/>
+<rect x="438.66666666666663" y="128" width="4" height="42" rx="2" fill="#3F5670"/>
+<text x="550.0" y="146.0" font-size="14" fill="#3F5670" font-weight="700" text-anchor="middle" >Upload CSV</text>
+<text x="550.0" y="165.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >dibaca oleh indicators.py</text>
+<line x1="550.0" y1="180" x2="550.0" y2="212" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="677.3333333333333" y="118" width="222.66666666666666" height="62" rx="10" fill="#FFFFFF" stroke="#3F5670" stroke-width="1.6"/>
+<rect x="677.3333333333333" y="128" width="4" height="42" rx="2" fill="#3F5670"/>
+<text x="788.6666666666666" y="146.0" font-size="14" fill="#3F5670" font-weight="700" text-anchor="middle" >Pencarian web</text>
+<text x="788.6666666666666" y="165.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >dicatat di sources.md</text>
+<line x1="788.6666666666666" y1="180" x2="788.6666666666666" y2="212" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="200" y="214" width="700" height="46" rx="10" fill="#3F5670"/>
+<text x="220" y="243" font-size="15" fill="#FFFFFF" font-weight="700" text-anchor="start" >Snapshot data</text>
+<text x="353" y="243" font-size="12.5" fill="#DCE3EC" font-weight="normal" text-anchor="start" >harga, indikator, fundamental, berita. Tanpa data setelah tanggal analisis.</text>
+<line x1="550.0" y1="260" x2="550.0" y2="292" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<circle cx="62" cy="330" r="15" fill="#1F5FBF"/>
+<text x="62" y="335" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle" >2</text>
+<text x="88" y="335" font-size="15" fill="#1F5FBF" font-weight="700" text-anchor="start" >Tim</text>
+<text x="88" y="353" font-size="15" fill="#1F5FBF" font-weight="700" text-anchor="start" >analis</text>
+<rect x="200.0" y="300" width="163.0" height="84" rx="10" fill="#FFFFFF" stroke="#1F5FBF" stroke-width="1.6"/>
+<rect x="200.0" y="310" width="4" height="64" rx="2" fill="#1F5FBF"/>
+<text x="281.5" y="331.0" font-size="14.5" fill="#1F5FBF" font-weight="700" text-anchor="middle" >Teknikal</text>
+<text x="281.5" y="350.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >tren, momentum,</text>
+<text x="281.5" y="366.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >volatilitas, level</text>
+<rect x="379.0" y="300" width="163.0" height="84" rx="10" fill="#FFFFFF" stroke="#1F5FBF" stroke-width="1.6"/>
+<rect x="379.0" y="310" width="4" height="64" rx="2" fill="#1F5FBF"/>
+<text x="460.5" y="331.0" font-size="14.5" fill="#1F5FBF" font-weight="700" text-anchor="middle" >Fundamental</text>
+<text x="460.5" y="350.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >pertumbuhan, margin,</text>
+<text x="460.5" y="366.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >neraca, valuasi</text>
+<rect x="558.0" y="300" width="163.0" height="84" rx="10" fill="#FFFFFF" stroke="#1F5FBF" stroke-width="1.6"/>
+<rect x="558.0" y="310" width="4" height="64" rx="2" fill="#1F5FBF"/>
+<text x="639.5" y="331.0" font-size="14.5" fill="#1F5FBF" font-weight="700" text-anchor="middle" >Berita &amp; Makro</text>
+<text x="639.5" y="350.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >katalis, makro,</text>
+<text x="639.5" y="366.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >kalender peristiwa</text>
+<rect x="737.0" y="300" width="163.0" height="84" rx="10" fill="#FFFFFF" stroke="#1F5FBF" stroke-width="1.6"/>
+<rect x="737.0" y="310" width="4" height="64" rx="2" fill="#1F5FBF"/>
+<text x="818.5" y="331.0" font-size="14.5" fill="#1F5FBF" font-weight="700" text-anchor="middle" >Sentimen</text>
+<text x="818.5" y="350.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >media sosial, analis,</text>
+<text x="818.5" y="366.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >posisi pasar</text>
+<text x="550.0" y="408" font-size="12.5" fill="#1F5FBF" font-weight="600" text-anchor="middle" >Laporan independen: analis tidak melihat laporan analis lain.</text>
+<line x1="550.0" y1="418" x2="550.0" y2="450" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<circle cx="62" cy="482" r="15" fill="#3B3F8F"/>
+<text x="62" y="487" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle" >3</text>
+<text x="88" y="487" font-size="15" fill="#3B3F8F" font-weight="700" text-anchor="start" >Tim</text>
+<text x="88" y="505" font-size="15" fill="#3B3F8F" font-weight="700" text-anchor="start" >riset</text>
+<rect x="200" y="452" width="190" height="76" rx="10" fill="#FFFFFF" stroke="#1E7F4F" stroke-width="1.6"/>
+<rect x="200" y="462" width="4" height="56" rx="2" fill="#1E7F4F"/>
+<text x="295.0" y="487.0" font-size="14.5" fill="#1E7F4F" font-weight="700" text-anchor="middle" >Peneliti Bull</text>
+<text x="295.0" y="506.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >argumen untuk membeli</text>
+<rect x="460" y="452" width="190" height="76" rx="10" fill="#FFFFFF" stroke="#B3372F" stroke-width="1.6"/>
+<rect x="460" y="462" width="4" height="56" rx="2" fill="#B3372F"/>
+<text x="555.0" y="487.0" font-size="14.5" fill="#B3372F" font-weight="700" text-anchor="middle" >Peneliti Bear</text>
+<text x="555.0" y="506.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >argumen untuk menghindari</text>
+<line x1="396" y1="482" x2="454" y2="482" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<line x1="454" y1="500" x2="396" y2="500" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="425.0" y="548" font-size="12" fill="#5B6573" font-weight="600" text-anchor="middle" >1 sampai 3 ronde</text>
+<rect x="700" y="452" width="200" height="76" rx="10" fill="#FFFFFF" stroke="#3B3F8F" stroke-width="1.6"/>
+<rect x="700" y="462" width="4" height="56" rx="2" fill="#3B3F8F"/>
+<text x="800.0" y="479.0" font-size="14.5" fill="#3B3F8F" font-weight="700" text-anchor="middle" >Research Manager</text>
+<text x="800.0" y="498.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >menilai debat, menyusun</text>
+<text x="800.0" y="514.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >rencana + rating</text>
+<line x1="654" y1="490" x2="696" y2="490" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="550.0" y="574" font-size="12.5" fill="#3B3F8F" font-weight="600" text-anchor="middle" >Setiap giliran wajib membantah poin terkuat lawan lebih dulu.</text>
+<line x1="550.0" y1="584" x2="550.0" y2="616" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<circle cx="62" cy="650" r="15" fill="#A15C07"/>
+<text x="62" y="655" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle" >4</text>
+<text x="88" y="655" font-size="15" fill="#A15C07" font-weight="700" text-anchor="start" >Trader</text>
+<rect x="200" y="620" width="700" height="64" rx="10" fill="#FFFFFF" stroke="#A15C07" stroke-width="1.6"/>
+<rect x="200" y="630" width="4" height="44" rx="2" fill="#A15C07"/>
+<text x="550.0" y="649.0" font-size="15" fill="#A15C07" font-weight="700" text-anchor="middle" >Trader</text>
+<text x="550.0" y="668.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >risk_tools.py: entry, stop, target, dan ukuran posisi sesuai fraksi harga dan lot IDX</text>
+<line x1="550.0" y1="684" x2="550.0" y2="716" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<circle cx="62" cy="750" r="15" fill="#6B3FA0"/>
+<text x="62" y="755" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle" >5</text>
+<text x="88" y="755" font-size="15" fill="#6B3FA0" font-weight="700" text-anchor="start" >Komite</text>
+<text x="88" y="773" font-size="15" fill="#6B3FA0" font-weight="700" text-anchor="start" >risiko</text>
+<rect x="200.0" y="720" width="222.66666666666666" height="64" rx="10" fill="#FFFFFF" stroke="#6B3FA0" stroke-width="1.6"/>
+<rect x="200.0" y="730" width="4" height="44" rx="2" fill="#6B3FA0"/>
+<text x="311.3333333333333" y="749.0" font-size="14.5" fill="#6B3FA0" font-weight="700" text-anchor="middle" >Agresif</text>
+<text x="311.3333333333333" y="768.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >mengejar potensi naik</text>
+<rect x="438.66666666666663" y="720" width="222.66666666666666" height="64" rx="10" fill="#FFFFFF" stroke="#6B3FA0" stroke-width="1.6"/>
+<rect x="438.66666666666663" y="730" width="4" height="44" rx="2" fill="#6B3FA0"/>
+<text x="550.0" y="749.0" font-size="14.5" fill="#6B3FA0" font-weight="700" text-anchor="middle" >Netral</text>
+<text x="550.0" y="768.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >menimbang kedua sisi</text>
+<rect x="677.3333333333333" y="720" width="222.66666666666666" height="64" rx="10" fill="#FFFFFF" stroke="#6B3FA0" stroke-width="1.6"/>
+<rect x="677.3333333333333" y="730" width="4" height="44" rx="2" fill="#6B3FA0"/>
+<text x="788.6666666666666" y="749.0" font-size="14.5" fill="#6B3FA0" font-weight="700" text-anchor="middle" >Konservatif</text>
+<text x="788.6666666666666" y="768.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >melindungi modal</text>
+<line x1="424.66666666666663" y1="752" x2="436.66666666666663" y2="752" stroke="#6B3FA0" stroke-width="1.6"/>
+<line x1="663.3333333333333" y1="752" x2="675.3333333333333" y2="752" stroke="#6B3FA0" stroke-width="1.6"/>
+<text x="550.0" y="808" font-size="12.5" fill="#6B3FA0" font-weight="600" text-anchor="middle" >1 sampai 2 ronde. Setiap anggota menutup dengan usulan penyesuaian konkret.</text>
+<line x1="550.0" y1="818" x2="550.0" y2="850" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<circle cx="62" cy="884" r="15" fill="#1B2430"/>
+<text x="62" y="889" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle" >6</text>
+<text x="88" y="889" font-size="15" fill="#1B2430" font-weight="700" text-anchor="start" >Portfolio</text>
+<text x="88" y="907" font-size="15" fill="#1B2430" font-weight="700" text-anchor="start" >Manager</text>
+<rect x="200" y="854" width="700" height="104" rx="10" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.6"/>
+<rect x="200" y="864" width="4" height="84" rx="2" fill="#1B2430"/>
+<text x="550.0" y="878" font-size="15" fill="#1B2430" font-weight="700" text-anchor="middle" >Portfolio Manager</text>
+<text x="550.0" y="897" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >menerima atau menolak penyesuaian dan menerapkan pelajaran lalu</text>
+<rect x="260.0" y="920" width="108" height="26" rx="13" fill="#1E7F4F"/>
+<text x="314.0" y="937.5" font-size="12.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" >Buy</text>
+<rect x="378.0" y="920" width="108" height="26" rx="13" fill="#5E9E3A"/>
+<text x="432.0" y="937.5" font-size="12.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" >Overweight</text>
+<rect x="496.0" y="920" width="108" height="26" rx="13" fill="#6B7280"/>
+<text x="550.0" y="937.5" font-size="12.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" >Hold</text>
+<rect x="614.0" y="920" width="108" height="26" rx="13" fill="#C0702A"/>
+<text x="668.0" y="937.5" font-size="12.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" >Underweight</text>
+<rect x="732.0" y="920" width="108" height="26" rx="13" fill="#B3372F"/>
+<text x="786.0" y="937.5" font-size="12.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" >Sell</text>
+<line x1="550.0" y1="958" x2="550.0" y2="990" stroke="#8C97A6" stroke-width="1.6" marker-end="url(#arr)"/>
+<circle cx="62" cy="1022" r="15" fill="#0E7490"/>
+<text x="62" y="1027" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle" >7</text>
+<text x="88" y="1027" font-size="15" fill="#0E7490" font-weight="700" text-anchor="start" >Hasil</text>
+<rect x="200.0" y="992" width="222.66666666666666" height="82" rx="10" fill="#FFFFFF" stroke="#0E7490" stroke-width="1.6"/>
+<rect x="200.0" y="1002" width="4" height="62" rx="2" fill="#0E7490"/>
+<text x="311.3333333333333" y="1022.0" font-size="14.5" fill="#0E7490" font-weight="700" text-anchor="middle" >Ringkasan chat</text>
+<text x="311.3333333333333" y="1041.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >rating, level,</text>
+<text x="311.3333333333333" y="1057.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >pandangan tiap meja</text>
+<rect x="438.66666666666663" y="992" width="222.66666666666666" height="82" rx="10" fill="#FFFFFF" stroke="#0E7490" stroke-width="1.6"/>
+<rect x="438.66666666666663" y="1002" width="4" height="62" rx="2" fill="#0E7490"/>
+<text x="550.0" y="1022.0" font-size="14.5" fill="#0E7490" font-weight="700" text-anchor="middle" >Laporan lengkap</text>
+<text x="550.0" y="1041.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >output semua agen</text>
+<text x="550.0" y="1057.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >dalam file .md</text>
+<rect x="677.3333333333333" y="992" width="222.66666666666666" height="82" rx="10" fill="#FFFFFF" stroke="#0E7490" stroke-width="1.6"/>
+<rect x="677.3333333333333" y="1002" width="4" height="62" rx="2" fill="#0E7490"/>
+<text x="788.6666666666666" y="1022.0" font-size="14.5" fill="#0E7490" font-weight="700" text-anchor="middle" >Log keputusan</text>
+<text x="788.6666666666666" y="1041.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >memori untuk analisis</text>
+<text x="788.6666666666666" y="1057.0" font-size="12" fill="#5B6573" font-weight="normal" text-anchor="middle" >berikutnya (.jsonl)</text>
+<path d="M901.9999999999999,1033 H926 V490" fill="none" stroke="#0E7490" stroke-width="1.6" stroke-dasharray="6 5"/>
+<line x1="926" y1="490" x2="904" y2="490" stroke="#0E7490" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#arrmem)"/>
+<line x1="926" y1="884" x2="904" y2="884" stroke="#0E7490" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#arrmem)"/>
+<text x="940" y="683.0" font-size="12" fill="#0E7490" font-weight="600" text-anchor="middle" transform="rotate(90 940 683.0)">memori: keputusan lalu dan pelajaran</text>
+<text x="40" y="1102" font-size="11.5" fill="#5B6573" font-weight="normal" text-anchor="start" >Peran mengikuti TauricResearch/TradingAgents (arXiv 2412.20138). Versi lite ini berjalan di dalam Claude sebagai skill.</text>
+</svg>
