@@ -196,7 +196,8 @@ Ticker formats follow Yahoo Finance: `BBCA.JK` for Indonesia, `AAPL` for the US,
 ### Getting better results on claude.ai
 
 - **Upload a daily price file (1 to 2 years)** together with your request. This enables full technical analysis. Exports from Investing.com, Yahoo Finance, TradingView or your broker all work. A benchmark file (for example IHSG) additionally enables beta and relative strength.
-- **Or allow Yahoo Finance hosts** in your network settings if your plan offers that option. The script reports the blocked host name; `yfinance` typically needs `query1.finance.yahoo.com`, `query2.finance.yahoo.com` and `fc.yahoo.com`.
+- **Or allow Yahoo Finance hosts** in your network settings if your plan offers that option. When blocked, the script prints the hosts to allow; `yfinance` uses `query1.finance.yahoo.com`, `query2.finance.yahoo.com`, `fc.yahoo.com`, `finance.yahoo.com`, `guce.yahoo.com` and `consent.yahoo.com` (or allow `*.yahoo.com` if wildcards are supported).
+- **Claude Code on the web / cloud sessions**: the default **Trusted** network level blocks Yahoo. Open the environment selector (cloud icon above the message box at claude.ai/code), edit the environment, set **Network access** to **Custom**, add `*.yahoo.com` under **Allowed domains**, keep **Also include default list of common package managers** checked, save, and start a new session.
 - **Keep the decision log.** Download `trading_agents_log.jsonl` after an analysis and upload it with your next request so the Portfolio Manager can review earlier calls.
 
 ### What you get

@@ -191,7 +191,8 @@ Format ticker mengikuti Yahoo Finance: `BBCA.JK` untuk saham Indonesia, `AAPL` u
 ### Supaya hasilnya lebih baik di claude.ai
 
 - **Upload file harga harian 1 sampai 2 tahun** bersama permintaanmu. Dengan begitu analisis teknikal bisa dilakukan secara lengkap. File ekspor dari Investing.com, Yahoo Finance, TradingView, atau aplikasi broker semuanya bisa dipakai. File benchmark (misalnya IHSG) juga membuat perhitungan beta dan kekuatan relatif bisa dilakukan.
-- **Atau izinkan host Yahoo Finance** di pengaturan jaringan jika paketmu menyediakan opsi tersebut. Script akan menampilkan nama host yang diblokir; `yfinance` biasanya membutuhkan `query1.finance.yahoo.com`, `query2.finance.yahoo.com`, dan `fc.yahoo.com`.
+- **Atau izinkan host Yahoo Finance** di pengaturan jaringan jika paketmu menyediakan opsi tersebut. Saat diblokir, script akan menampilkan daftar host yang perlu diizinkan; `yfinance` memakai `query1.finance.yahoo.com`, `query2.finance.yahoo.com`, `fc.yahoo.com`, `finance.yahoo.com`, `guce.yahoo.com`, dan `consent.yahoo.com` (atau izinkan `*.yahoo.com` jika wildcard didukung).
+- **Claude Code on the web / sesi cloud**: level jaringan bawaan **Trusted** memblokir Yahoo. Buka pemilih environment (ikon awan di atas kotak pesan di claude.ai/code), edit environment, ubah **Network access** menjadi **Custom**, tambahkan `*.yahoo.com` di **Allowed domains**, biarkan **Also include default list of common package managers** tercentang, simpan, lalu mulai sesi baru.
 - **Simpan log keputusan.** Download `trading_agents_log.jsonl` setelah analisis, lalu upload bersama permintaan berikutnya supaya Portfolio Manager bisa meninjau keputusan sebelumnya.
 
 ### Yang kamu dapatkan
