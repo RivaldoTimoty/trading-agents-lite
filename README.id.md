@@ -6,8 +6,6 @@ Versi lite dari [TauricResearch/TradingAgents](https://github.com/TauricResearch
 
 > Ini adalah alat riset dan belajar. Skill ini tidak memberikan saran keuangan, tidak mengeksekusi transaksi, dan tidak mengklaim bisa menghasilkan keuntungan.
 
-![Alur agen Trading Agents Lite](assets/agent-flow.id.svg)
-
 ---
 
 ## Daftar isi
@@ -56,6 +54,8 @@ Skill ini punya dua mode dan memilih secara otomatis:
 - **Mode satu konteks (chat claude.ai):** satu percakapan Claude menjalankan semua peran secara berurutan. Pemisahan dijaga lewat prosedur: setiap laporan hanya ditulis dari file input miliknya sendiri dan tidak direvisi setelah laporan lain muncul.
 
 Kedalaman analisis bisa diatur: `quick`, `standard` (bawaan), atau `deep`. Semakin dalam, semakin panjang laporannya dan semakin banyak ronde debatnya.
+
+![Alur agen Trading Agents Lite](assets/diagram.png)
 
 ## Perbandingan versi lite dan versi asli
 
@@ -234,7 +234,8 @@ trading-agents-lite/
 ├── requirements.txt          Paket Python untuk script pendukung
 ├── assets/
 │   ├── agent-flow.svg        Diagram alur (bahasa Inggris)
-│   └── agent-flow.id.svg     Diagram alur (bahasa Indonesia)
+│   ├── agent-flow.id.svg     Diagram alur (bahasa Indonesia)
+│   └── diagram.png           Diagram alur detail (dibuat oleh gitdiagram.com)
 └── trading-agents/           Skill-nya (folder inilah yang dipasang)
     ├── SKILL.md              Instruksi alur kerja dan orkestrasi
     ├── references/
